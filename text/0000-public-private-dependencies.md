@@ -72,7 +72,7 @@ answer apply (eg: you can currently overrule the restrictions).
 
 **Q: How does semver and depenencies interact?**<br>
 A: It is already the case that changing your own dependencies would require a semver
-bumb for your own library because your API contract to the outside world changes.  This
+bump for your own library because your API contract to the outside world changes.  This
 RFC however makes it possible to only have this requirement for public dependencies and
 would permit cargo to prevent new crate releases with semver violations.
 
